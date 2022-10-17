@@ -80,6 +80,3 @@ tiles = 'Mapbox',
 API_key = 'c3d9fb00-6be4-45a2-b66a-550bdf888bdc'
 
 
-app = Flask(__name__)
-app.add_url_rule('/', 'hello', mapGen)
-app.run('0.0.0.0')
